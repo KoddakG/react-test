@@ -7,7 +7,7 @@ function Article(props){
     <h2>{props.title}</h2>
     {props.body}
   </article>
-}
+} 
 function Header(props){
   return <header>
     <h1><a href="/" onClick={(event)=>{
