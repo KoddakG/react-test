@@ -14,7 +14,7 @@ function Header(props){
       event.preventDefault();
       props.onChangeMode();
     }}>{props.title}</a></h1>
-  </header>
+  </header>  
 }
 function Nav(props){
   const lis = []
